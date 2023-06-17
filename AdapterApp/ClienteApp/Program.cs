@@ -6,18 +6,19 @@ Motor motorGasolina = new MotorGasolina();
 Motor motorElectrico = new MotorElectricoAdapter();
 
 Console.WriteLine("Llevar mi auto a aprovisionar Gasolina, Diesel, o energia --> remoto \n");
+Console.WriteLine("=================================================================");
 motorDiesel.Arrancar();
 motorDiesel.Acelerar();
 motorDiesel.Detener();
 motorDiesel.Tanquear();
 
-Console.WriteLine("---------------------------------------------------------------");
+Console.WriteLine("=================================================================");
 motorGasolina.Arrancar();
 motorGasolina.Acelerar();
 motorGasolina.Detener();
 motorGasolina.Tanquear();
 
-Console.WriteLine("---------------------------------------------------------------");
+Console.WriteLine("=================================================================");
 motorElectrico.Arrancar();
 motorElectrico.Acelerar();
 motorElectrico.Detener();
