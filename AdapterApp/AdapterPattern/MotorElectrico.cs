@@ -45,7 +45,7 @@ namespace AdapterPattern
             if (_parar) Console.WriteLine("Imposible parar un motor electrico, ya esta en detenido");
             else
             {
-                Console.WriteLine("detenido Correctamente");
+                Console.WriteLine("Detenido Correctamente");
                 _conectado = false;
             }
         }
