@@ -8,7 +8,7 @@ namespace AdapterPattern
 {
     public class MotorElectrico
     {
-        bool _conectado, _activo, _moviendo, _parar;
+        bool _conectado, _activo, _moviendo, _parar = false;
 
         public void Conectar()
         {
@@ -35,7 +35,7 @@ namespace AdapterPattern
             if (_moviendo) Console.WriteLine("Imposible mover un motor electrico, ya esta en movimiento");
             else
             {
-                Console.WriteLine("MOviendo Correctamente");
+                Console.WriteLine("Moviendo Correctamente");
                 _conectado = true;
             }
         }
@@ -46,7 +46,7 @@ namespace AdapterPattern
             else
             {
                 Console.WriteLine("detenido Correctamente");
-                _conectado = true;
+                _conectado = false;
             }
         }
 
