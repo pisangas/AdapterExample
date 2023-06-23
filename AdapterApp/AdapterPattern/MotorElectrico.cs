@@ -8,7 +8,10 @@ namespace AdapterPattern
 {
     public class MotorElectrico
     {
-        bool _conectado, _activo, _moviendo, _parar = false;
+        private readonly bool _conectado = false;
+        private readonly bool _activo = false;
+        private readonly bool _moviendo = false;
+        private readonly bool _parar = false;
 
         public void Conectar()
         {

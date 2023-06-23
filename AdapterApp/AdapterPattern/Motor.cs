@@ -10,8 +10,7 @@ namespace AdapterPattern
     {
         public abstract void Acelerar();
         public abstract void Arrancar();
-        public abstract void Tanquear();
         public abstract void Detener();
-        
+        public abstract void Tanquear();        
     }
 }

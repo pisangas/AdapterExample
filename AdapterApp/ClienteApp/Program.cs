@@ -5,7 +5,7 @@ Motor motorDiesel = new MotorDiesel();
 Motor motorGasolina = new MotorGasolina();
 Motor motorElectrico = new MotorElectricoAdapter();
 
-Console.WriteLine("Llevar mi auto a aprovisionar Gasolina, Diesel, o energia --> remoto \n");
+Console.WriteLine("Control Actividad AUTOS\n");
 Console.WriteLine("=================================================================");
 motorDiesel.Arrancar();
 motorDiesel.Acelerar();

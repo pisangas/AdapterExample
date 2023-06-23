@@ -8,7 +8,7 @@ namespace AdapterPattern
 {
     public class MotorElectricoAdapter : Motor
     {
-        MotorElectrico motorElectrico = new MotorElectrico();
+        private readonly MotorElectrico motorElectrico = new MotorElectrico();
 
         public override void Acelerar()
         {
